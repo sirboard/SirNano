@@ -570,18 +570,6 @@ Wire Wire Line
 Connection ~ 8550 6050
 Wire Wire Line
 	8550 6050 8650 6050
-$Comp
-L Device:C C11
-U 1 1 5DA62F39
-P 6850 4750
-F 0 "C11" H 6965 4796 50  0000 L CNN
-F 1 "100nF" H 6965 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 4600 50  0001 C CNN
-F 3 "~" H 6850 4750 50  0001 C CNN
-F 4 "C42998" H 6850 4750 50  0001 C CNN "Part"
-	1    6850 4750
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7200 4750 7000 4750
 Wire Wire Line
@@ -641,30 +629,6 @@ Wire Wire Line
 	6000 2800 6350 2800
 Wire Wire Line
 	6000 2900 6350 2900
-$Comp
-L Device:CP C10
-U 1 1 5DB9B9CE
-P 4800 1250
-F 0 "C10" H 4682 1296 50  0000 R CNN
-F 1 "1uF" H 4682 1205 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 1100 50  0001 C CNN
-F 3 "~" H 4800 1250 50  0001 C CNN
-F 4 "C396719" H 4800 1250 50  0001 C CNN "Part"
-	1    4800 1250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:CP C9
-U 1 1 5DB9B9D5
-P 3500 1250
-F 0 "C9" H 3382 1296 50  0000 R CNN
-F 1 "1uF" H 3382 1205 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3538 1100 50  0001 C CNN
-F 3 "~" H 3500 1250 50  0001 C CNN
-F 4 "C396719" H 3500 1250 50  0001 C CNN "Part"
-	1    3500 1250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 1100 4800 900 
 Wire Wire Line
@@ -919,18 +883,6 @@ Text GLabel 8850 850  2    50   Input ~ 0
 VCC
 Wire Wire Line
 	8850 850  8700 850 
-$Comp
-L Power_Protection:PRTR5V0U2X D1
-U 1 1 5DA68898
-P 6000 1400
-F 0 "D1" H 6543 1445 50  0000 L CNN
-F 1 "PRTR5V0U2X" H 6543 1355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 6060 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 6060 1400 50  0001 C CNN
-F 4 "C12333" H 6000 1400 50  0001 C CNN "Part"
-	1    6000 1400
-	1    0    0    -1  
-$EndComp
 Text GLabel 5400 1400 0    50   Input ~ 0
 D+
 Text GLabel 6600 1400 2    50   Input ~ 0
@@ -1174,18 +1126,6 @@ Connection ~ 1600 2200
 Wire Wire Line
 	1700 2900 1600 2900
 Connection ~ 1600 2900
-$Comp
-L Device:C C?
-U 1 1 5DE871F7
-P 8650 5475
-F 0 "C?" H 8765 5521 50  0000 L CNN
-F 1 "100nF" H 8765 5430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 5325 50  0001 C CNN
-F 3 "~" H 8650 5475 50  0001 C CNN
-F 4 "C42998" H 8650 5475 50  0001 C CNN "Part"
-	1    8650 5475
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	8650 5325 8650 4950
 Wire Wire Line
@@ -1198,4 +1138,64 @@ Wire Wire Line
 Wire Wire Line
 	8650 4950 8650 4350
 Connection ~ 8650 4950
+$Comp
+L Device:C C3
+U 1 1 5E251200
+P 8650 5475
+F 0 "C3" H 8765 5521 50  0000 L CNN
+F 1 "100nF" H 8765 5430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 5325 50  0001 C CNN
+F 3 "~" H 8650 5475 50  0001 C CNN
+F 4 "C42998" H 8650 5475 50  0001 C CNN "Part"
+	1    8650 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C10
+U 1 1 5E27965A
+P 4800 1250
+F 0 "C10" H 4682 1296 50  0000 R CNN
+F 1 "1uF" H 4682 1205 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4838 1100 50  0001 C CNN
+F 3 "~" H 4800 1250 50  0001 C CNN
+F 4 "C29936" H 4800 1250 50  0001 C CNN "Part"
+	1    4800 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C9
+U 1 1 5E288501
+P 3500 1250
+F 0 "C9" H 3382 1296 50  0000 R CNN
+F 1 "1uF" H 3382 1205 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3538 1100 50  0001 C CNN
+F 3 "~" H 3500 1250 50  0001 C CNN
+F 4 "C29936" H 3500 1250 50  0001 C CNN "Part"
+	1    3500 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:PRTR5V0U2X D1
+U 1 1 5DA68898
+P 6000 1400
+F 0 "D1" H 6350 1200 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 6350 1125 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 6060 1400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 6060 1400 50  0001 C CNN
+F 4 "C12333" H 6000 1400 50  0001 C CNN "Part"
+	1    6000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5E2607AF
+P 6850 4750
+F 0 "C11" V 6975 4800 50  0000 L CNN
+F 1 "100nF" V 6975 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 4600 50  0001 C CNN
+F 3 "~" H 6850 4750 50  0001 C CNN
+F 4 "C42998" H 6850 4750 50  0001 C CNN "Part"
+	1    6850 4750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
